@@ -1,8 +1,17 @@
 public class Coins{
+    private int money;
 
     public Coins(int money){
         this.money = money;
 
+    }
+
+    public int getMoney(){
+        return money;
+    }
+
+    public void setmoney(int f){
+        money = f;
     }
 
     public int quarters(){
